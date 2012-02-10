@@ -58,7 +58,7 @@ def main():
     
     (options, args) = parser.parse_args()
     if len(args) != 1:
-        parser.error("incorrect number of arguments")
+        parser.error("incorrect number of arguments, --help for help")
 
     fp = open( args[0] )
         
